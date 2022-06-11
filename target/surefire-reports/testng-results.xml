@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="163795" started-at="2022-06-11T12:23:15 IDT" finished-at="2022-06-11T12:25:59 IDT">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="163795" started-at="2022-06-11T12:23:15 IDT" finished-at="2022-06-11T12:25:59 IDT">
+      <class name="sanity.MetricConversionsWeb">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="startSession" is-config="true" duration-ms="30050" started-at="2022-06-11T12:23:15 IDT" finished-at="2022-06-11T12:23:45 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[web]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="693" started-at="2022-06-11T12:23:46 IDT" finished-at="2022-06-11T12:23:46 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test01_verifyLogo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01_verifyLogo()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test01_verifyLogo" duration-ms="421" started-at="2022-06-11T12:23:46 IDT" description="Test 01 - Verify Logo" finished-at="2022-06-11T12:23:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_verifyLogo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="26" started-at="2022-06-11T12:23:47 IDT" finished-at="2022-06-11T12:23:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="20" started-at="2022-06-11T12:23:47 IDT" finished-at="2022-06-11T12:23:47 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test02_verifyCrossroadButton()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02_verifyCrossroadButton()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test02_verifyCrossroadButton" duration-ms="2884" started-at="2022-06-11T12:23:47 IDT" description="Test 02 - Verify crossroad button visually" finished-at="2022-06-11T12:23:50 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_verifyCrossroadButton -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="25" started-at="2022-06-11T12:23:50 IDT" finished-at="2022-06-11T12:23:50 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="21" started-at="2022-06-11T12:23:50 IDT" finished-at="2022-06-11T12:23:50 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test03_selectLanguage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test03_selectLanguage()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test03_selectLanguage" duration-ms="54363" started-at="2022-06-11T12:23:50 IDT" description="Test 03 - Select Language" finished-at="2022-06-11T12:24:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_selectLanguage -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="3399" started-at="2022-06-11T12:24:45 IDT" finished-at="2022-06-11T12:24:48 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="25" started-at="2022-06-11T12:24:48 IDT" finished-at="2022-06-11T12:24:48 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test04_convertTemperature() throws java.lang.NullPointerException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test04_convertTemperature()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test04_convertTemperature" duration-ms="9622" started-at="2022-06-11T12:24:48 IDT" description="Test 04 - Convert Temperature" finished-at="2022-06-11T12:24:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_convertTemperature -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="3083" started-at="2022-06-11T12:24:58 IDT" finished-at="2022-06-11T12:25:01 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="29" started-at="2022-06-11T12:25:01 IDT" finished-at="2022-06-11T12:25:01 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test05_convertLength()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test05_convertLength()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test05_convertLength" duration-ms="8644" started-at="2022-06-11T12:25:01 IDT" description="Test 05 - Convert Length" finished-at="2022-06-11T12:25:09 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05_convertLength -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="3145" started-at="2022-06-11T12:25:10 IDT" finished-at="2022-06-11T12:25:13 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2022-06-11T12:25:13 IDT" finished-at="2022-06-11T12:25:13 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test06_calculateBMI(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test06_calculateBMI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test06_calculateBMI" duration-ms="8948" started-at="2022-06-11T12:25:13 IDT" description="Test 06 - Calculate BMI Using DDT" data-provider="data-provider-bmi" finished-at="2022-06-11T12:25:22 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[187]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[110]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_calculateBMI -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="3217" started-at="2022-06-11T12:25:22 IDT" finished-at="2022-06-11T12:25:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2022-06-11T12:25:25 IDT" finished-at="2022-06-11T12:25:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test06_calculateBMI(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test06_calculateBMI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test06_calculateBMI" duration-ms="7622" started-at="2022-06-11T12:25:25 IDT" description="Test 06 - Calculate BMI Using DDT" data-provider="data-provider-bmi" finished-at="2022-06-11T12:25:33 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[170]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[85]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_calculateBMI -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="3105" started-at="2022-06-11T12:25:33 IDT" finished-at="2022-06-11T12:25:36 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-06-11T12:25:36 IDT" finished-at="2022-06-11T12:25:36 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test06_calculateBMI(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test06_calculateBMI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test06_calculateBMI" duration-ms="7888" started-at="2022-06-11T12:25:36 IDT" description="Test 06 - Calculate BMI Using DDT" data-provider="data-provider-bmi" finished-at="2022-06-11T12:25:44 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[155]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[incorrect]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_calculateBMI -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="3330" started-at="2022-06-11T12:25:44 IDT" finished-at="2022-06-11T12:25:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2022-06-11T12:25:47 IDT" finished-at="2022-06-11T12:25:47 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.MetricConversionsWeb.test06_calculateBMI(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test06_calculateBMI(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="test06_calculateBMI" duration-ms="9189" started-at="2022-06-11T12:25:47 IDT" description="Test 06 - Calculate BMI Using DDT" data-provider="data-provider-bmi" finished-at="2022-06-11T12:25:56 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[205]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[correct]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06_calculateBMI -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="afterMethod" is-config="true" duration-ms="1628" started-at="2022-06-11T12:25:56 IDT" finished-at="2022-06-11T12:25:58 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:sanity.MetricConversionsWeb@6058e535]" name="endSession" is-config="true" duration-ms="1134" started-at="2022-06-11T12:25:58 IDT" finished-at="2022-06-11T12:25:59 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- sanity.MetricConversionsWeb -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!--Timeout -->
+    <Timeout>5</Timeout>
+
+
+    <!--Credentials -->
+    <Username>admin</Username>
+    <Password>admin</Password>
+
+    <!--Web-->
+    <BrowserName>chrome</BrowserName>
+    <url>https://www.metric-conversions.org/</url>
+    <ImageRepo>C:\Automation\FinalProject\ImagesRepository\</ImageRepo>
+
+    <!-- Mobile -->
+    <UDID>5210d740f454c333</UDID>
+    <AppPackage>com.wighthat.MetricConversion</AppPackage>
+    <AppActivity>.SplashActivity</AppActivity>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+
+    <!-- API -->
+    <urlAPI>https://api.chucknorris.io/jokes</urlAPI>
+
+    <!-- Electron -->
+    <electronDriverPath>./Drivers/electrondriver.exe</electronDriverPath>
+    <electronAppPath>C:/Users/eranx/AppData/Local/Programs/todolist/Todolist.exe</electronAppPath>
+
+    <!-- Desktop -->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!-- Database -->
+    <DBUrl>jdbc:mysql://remotemysql.com:3306/0dXhdZUrX4</DBUrl>
+    <DBUsername>0dXhdZUrX4</DBUsername>
+    <DBPassword>ctE71nzKtk</DBPassword>
+
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/bmi.csv</DDTFile>
+</Environment>
