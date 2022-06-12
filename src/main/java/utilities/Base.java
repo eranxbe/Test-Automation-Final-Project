@@ -27,6 +27,7 @@ public class Base {
     protected static SoftAssert softAssert;
     protected static Screen screen;
     protected static String platform;
+    protected static String ddtFile;
 
     //Web
     protected static WebDriver driver;

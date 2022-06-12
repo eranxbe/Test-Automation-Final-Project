@@ -38,5 +38,6 @@
 
 
     <!-- Data Driven Testing -->
-    <DDTFile>./DDTFiles/bmi.csv</DDTFile>
+    <DDTFileBMI>./DDTFiles/bmi.csv</DDTFileBMI>
+    <DDTFileCalculator>./DDTFiles/calculator.csv</DDTFileCalculator>
 </Environment>

@@ -13,9 +13,13 @@ import static org.testng.Assert.fail;
 public class ManageDDT extends CommonOps{
 
     @DataProvider(name = "data-provider-bmi")
-//@DataProvider(name = "data-provider-calculator")
-    public Object[][] getDataObject() {
-        return getDataFromCSV(getData("DDTFile"));
+    public Object[][] getDataObjectBMI() {
+        return getDataFromCSV(getData("DDTFileBMI"));
+    }
+
+    @DataProvider(name = "data-provider-calculator")
+    public Object[][] getDataObjectCalculator() {
+        return getDataFromCSV(getData("DDTFileCalculator"));
     }
 
     public static List<String> readCSV(String csvFile) {

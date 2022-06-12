@@ -4,11 +4,7 @@
     <test name="Desktop Tests">
         <parameter name="PlatformName" value="desktop"/>
         <classes>
-            <class name="sanity.CalculatorDesktop">
-                <methods>
-                    <exclude name="test02_calculateUsingDDT"/>
-                </methods>
-            </class>
+            <class name="sanity.CalculatorDesktop"/>
         </classes>
     </test>
 </suite>
