@@ -1,4 +1,5 @@
-This file gives some verbal explanations to the project.
+**This file gives some verbal explanations to the project.**
+
 This project was developed as a final task for Fullstack Test Automation Course, containing multiple tools and frameworks,
 such as Selenium WebDriver, Appium, Rest Assured, ElectronDriver, WinAppDriver, Jenkins, Database connection, all written in Java.
 
@@ -9,12 +10,14 @@ Using TestNG, Maven, Allure Reports system, Monte Screen Recorder
 Under ./Configuration/DataConfig an XML configuration files, Platform name is configured at TestNG.xml file
 
 Project Structure:
+    
     Infrastructure (under src > main > java):
         extensions - contains actions and verifications
         page objects - initializes page objects
         utilities - contains Base, Common Ops and Managing Pages
         workflows - contains work flows (Specific Steps for tests)
 
+    
     Tests (under src > test > java > sanity):
         CalculateDesktop - Tests for Calculator app in Windows using WindowsDriver
         ChuckNorrisAPI - Tests for Chuck Norris Jokes' API using Rest-Assured
