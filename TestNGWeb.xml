@@ -4,11 +4,7 @@
     <test name="Web Tests">
         <parameter name="PlatformName" value="web"/>
         <classes>
-            <class name="sanity.MetricConversionsWeb">
-                <methods>
-                    <include name="test06_calculateBMI"/>
-                </methods>
-            </class>
+            <class name="sanity.MetricConversionsWeb"/>
         </classes>
     </test>
 </suite>

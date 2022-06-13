@@ -1,12 +1,15 @@
-This file gives some verbal explanations to the project
+This file gives some verbal explanations to the project.
+This project was developed as a final task for Fullstack Test Automation Course, containing multiple tools and frameworks,
+such as Selenium WebDriver, Appium, Rest Assured, ElectronDriver, WinAppDriver, Jenkins, Database connection, all written in Java.
 
-Using TestNG, Maven, Allure Reports system
+**Please note that this is a demo project to demonstrate my knowledge and abilities, this is not for production (in which case the infra and tests should be separate projects).
+
+Using TestNG, Maven, Allure Reports system, Monte Screen Recorder
 
 Under ./Configuration/DataConfig an XML configuration files, Platform name is configured at TestNG.xml file
 
 Project Structure:
     Infrastructure (under src > main > java):
-
         extensions - contains actions and verifications
         page objects - initializes page objects
         utilities - contains Base, Common Ops and Managing Pages
@@ -22,10 +25,7 @@ Project Structure:
 #Allure -> "allure serve allure-results -h localhost"
 
 #Remote MySQL Database:
-
-    Username: 0dXhdZUrX4
-    Database name: 0dXhdZUrX4
-    Password: ctE71nzKtk
+    Free MySQL Server, get credentials and use this data:
     Server: remotemysql.com
     Port: 3306
 
