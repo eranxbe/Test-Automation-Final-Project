@@ -14,7 +14,7 @@ public class Verifications extends CommonOps {
 
     @Step("Verify language URL extension")
     public static void verifyLanguageURL(String urlExtension) {
-        assertTrue(driver.getCurrentUrl().contains(urlExtension));
+        softAssert.assertTrue(driver.getCurrentUrl().contains(urlExtension));
     }
 
     @Step("Verify Conversion value equals expected value")
@@ -56,7 +56,7 @@ public class Verifications extends CommonOps {
 
     @Step("Verify element is selected")
     public static void verifyMobileElementIsSelected(MobileElement elem) {
-        assertTrue(elem.isSelected(), "Element Is Not Selected");
+        softAssert.assertTrue(elem.isSelected(), "Element Is Not Selected");
     }
 
     @Step("Verify element is selected")

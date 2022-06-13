@@ -23,10 +23,10 @@ public class ChuckNorrisAPI extends CommonOps {
     @Test(description = "Test 02: Get Random Food Joke")
     @Description("Business Flow: Get Random Food Joke and Verify Category")
     public static void test02_getRandomFoodJoke() {
-        String foodJoke = ApiFlows.getRandomJokeByCategory("value", ApiFlows.categoriesEnum.animal);
+        String foodJoke = ApiFlows.getRandomJokeByCategory("value", ApiFlows.categoriesEnum.food);
         String category = ApiActions.extractFromJSON(response, "categories");
         System.out.println(foodJoke);
-        Verifications.assertText(String.valueOf(ApiFlows.categoriesEnum.animal), category.substring(1, category.length() - 1));
+        Verifications.assertText(String.valueOf(ApiFlows.categoriesEnum.food), category.substring(1, category.length() - 1));
 
     }
 }
